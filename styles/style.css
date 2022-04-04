@@ -51,7 +51,7 @@ header {
 .handle-card,
 .share-div,
 .fb-share-button {
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 td {
@@ -231,8 +231,8 @@ body {
 }
 
 .layout .mdl-layout__header .mdl-layout__drawer-button {
-    color: #EEEEEE;
-    /* background-color: #424242; */
+    color: black;
+    /* background-color: black; */
 }
 
 .mdl-layout__drawer .avatar {
