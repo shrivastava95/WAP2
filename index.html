@@ -34,9 +34,9 @@
   <div id="fb-root"></div>
   <div class="layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <header class="header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600" >
+    <header class="header mdl-layout__header " >
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">WAP2</span>
+        <span class="mdl-layout-title"><strong><h3><bold>WAP2</bold></h3></strong></span>
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation mdl-layout--large-screen-only">
           <a href="index.html" class="mdl-button mdl-js-button mdl-js-ripple-effect"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i> Home <span class="mdl-ripple"></span></a>
@@ -159,17 +159,18 @@
           <div class="vertical-space"></div>
           <div class="to-clear" id="unsolvedList"></div>
         </div>
-        <div id="heatmapCon" class="hidden to-hide card mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--11-col-desktop">
-          <div id="heatmapTitle">Submissions HeatMap of <span id="heatMapHandle"></span></div>
+
+        <div  id="heatmapCon" class="hidden to-hide card mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--11-col-desktop">
+          <div id="heatmapTitle"><strong>Submissions HeatMap of</strong> <span id="heatMapHandle"></span></div>
           <div class="mdl-textfield mdl-js-textfield heatmap-text">
               <input type="number" class="mdl-textfield__input heatmap-text" min="0" max="999" id="heatmapMaxValue">
               <label class="mdl-textfield__label heatmap-text" for="heatmapMaxValue">Set Maximum</label>
               <span class="mdl-textfield__error heatmap-text">Number is out of range!</span>
           </div>
           <span class="mdl-tooltip mdl-tooltip--right" for="heatmapMaxValue">Change maximum value of daily submissions.</span>
-          <div class="to-clear" id="heatmapDiv"></div>
+          <div class="to-clear" id="heatmapDiv" ></div>
         </div>
-        
+
         <div class="share-div to-hide mdl-cell mdl-cell--12-col">
           <a class="hidden sharethis" href="javascript:fbShareResult()">share result</a>
           <div class="vertical-space"></div>
