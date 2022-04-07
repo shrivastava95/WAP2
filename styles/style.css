@@ -34,10 +34,13 @@ header {
 
 .handle-card {
     padding: 20px 50px;
-    margin: auto;
+    margin: 150px auto;
     max-height: 250px;
     clear: both;
     text-align: center;
+    display: flex;
+    justify-content:  center;
+    align-items: center
 }
 
 .card {
@@ -228,12 +231,31 @@ a {
 html,
 body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
+    
 }
 
 .layout .mdl-layout__header .mdl-layout__drawer-button {
     color: black;
     /* background-color: black; */
 }
+
+.mdl-layout__content{
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/****here se maine kiya**/
+.mdl-textfield {
+    color: #B20600;
+}
+
+.mdl-textfield__label {
+    color: #00092C;
+}
+
+
 
 .mdl-layout__drawer .avatar {
     margin-bottom: 16px;
